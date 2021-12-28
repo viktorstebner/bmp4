@@ -47,6 +47,6 @@ def match(bom, inventory = {}):
 
 #list of all available bills of materials
 boms = []
-boms.append(BOM("CHAIR",[Ingredient("BOARD(S)", 1), Ingredient("STICK(S)", 3)], "INSTRUCTIONS FOR CHAIR"))
-boms.append(BOM("TABLE", [Ingredient("BOARD(S)", 1), Ingredient("STICK(S)", 4)], "INSTRUCTIONS FOR TABLE"))
-boms.append(BOM("MEMOBOARD", [Ingredient("BOARD(S)", 1), Ingredient("NAIL(S)", 16), Ingredient("STRING(S)", 1)], "INSTRUCTIONS FOR MEMOBOARD"))
+boms.append(BOM("CHAIR",[Ingredient("BOARD(S)", 1), Ingredient("STICK(S)", 3)], "(INSTRUCTIONS FOR CHAIR)"))
+boms.append(BOM("TABLE", [Ingredient("BOARD(S)", 1), Ingredient("STICK(S)", 4)], "(INSTRUCTIONS FOR TABLE)"))
+boms.append(BOM("MEMOBOARD", [Ingredient("BOARD(S)", 1), Ingredient("NAIL(S)", 16), Ingredient("STRING(S)", 1)], "(INSTRUCTIONS FOR MEMOBOARD)"))
